@@ -1,0 +1,24 @@
+{
+    "name": "out-promise",
+    "version": "0.0.1",
+    "description": "Promise that resolves externally",
+    "keywords": [
+        "promise",
+        "helpful",
+        "util",
+        "helper"
+    ],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jose-nunez/out-promise.git"
+    },
+    "author": "Jose Nunez <josenunezdiaz@gmail.com> (http://josenunez.org)",
+    "scripts": {
+        "test": "jasmine ./app/OutPromise_spec.js"
+    },
+    "devDependencies": {
+        "jasmine": "^3.1.0"
+    },
+    "license": "MIT"
+}
