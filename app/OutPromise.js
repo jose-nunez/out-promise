@@ -21,12 +21,12 @@ module.exports = class {
 
   resolve(arg){ 
     resolves.get(this)(arg)
-    return promise.get(this)
+    return this
   }
 
   reject(e){ 
     rejects.get(this)(e) 
-    return promise.get(this)
+    return this
   }
 
   then(onFulfilled, onRejected){ return promise.get(this).then(onFulfilled, onRejected) }

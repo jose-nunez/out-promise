@@ -33,11 +33,11 @@ No parameters required. The function that resolves or rejects will be called ext
 
 ### OutPromise.prototype.resolve(value)
 
-Returns a Promise object that is resolved with the given value
+Returns this object that is resolved with the given value
 
 ### OutPromise.prototype.reject(reason)
 
-Returns a Promise object that is rejected with the given reason.
+Returns this object that is rejected with the given reason.
 
 ### OutPromise.prototype.catch(onRejected)
 

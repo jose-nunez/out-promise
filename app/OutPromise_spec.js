@@ -25,7 +25,7 @@ describe("OutPromise", function() {
     expect(op.resolve).toBeInstanceOf(Function)
     expect(op.then).toBeInstanceOf(Function)
 
-    expect(op.resolve('hi there')).toBeInstanceOf(Promise)
+    expect(op.resolve('hi there')).toBeInstanceOf(OutPromise)
 
     expect(op.then(resolved=>{
       
