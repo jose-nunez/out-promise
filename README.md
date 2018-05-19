@@ -8,7 +8,7 @@ Promise that resolves/rejects externally
 
 ## Simple usage
 
-```
+```javascript
 const OutPromise = require('out-promise')
 
 let op = new OutPromise()

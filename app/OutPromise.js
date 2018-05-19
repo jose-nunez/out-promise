@@ -4,7 +4,7 @@ let promise = new WeakMap()
 let resolves = new WeakMap()
 let rejects = new WeakMap()
 
-module.exports = class {
+module.exports = class OutPromise{
 
   constructor(){
     let resolve
